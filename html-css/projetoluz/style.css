@@ -1,0 +1,182 @@
+/* " { }  */
+
+@charset "UTF-8"
+
+@font-face {
+   font-family: ;
+   src: url();
+}
+
+@font-face {
+   font-family: 'Madani-P';
+   src: url(fontes/MadaniArabicDEMO-Thin.otf);
+}
+
+ @font-face {
+    font-family: 'Madani-M';
+    src: url(fontes/MadaniArabicDEMO-Regular.otf);
+ }
+
+ @font-face {
+    font-family: 'Madani-G';
+    src: url(fontes/MadaniArabicDEMO-Bold.otf);
+ }
+
+ @font-face {
+    font-family: 'Madani-GG';
+    src: url(fontes/MadaniArabicDEMO-Black.otf);
+ }
+
+
+ *{
+        margin: 0px; 
+        padding: 0px;
+    }
+
+      body{
+         background-color: #B4BCC6;
+         margin: auto;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      header{
+         margin: auto;
+         color: white;
+        background-image: linear-gradient( to bottom,#5F6369,#383B3E);
+         text-align: center; 
+         min-width: 150px;
+         padding top: 40px;     
+}
+         
+      header h1{ 
+         font-family: 'Madani-M';
+         padding-top: 10px;
+       
+      }
+
+      header p{
+         padding-top: 5px;
+         font-family: 'Madani-P';
+         max-width: 600px; 
+         padding-right: 10px;
+         padding-left: 10px;
+         margin: auto;
+       }
+
+       nav{ margin: auto;
+         background-color: #383B3E;
+         padding-top: 15px;
+         padding-left: 15px;
+         padding-right: 15px;
+       }
+
+      nav a { 
+         color: white;
+         text-decoration: none;
+         font-family: 'Madani-M';
+         font-size: smaller;
+          padding-top: 5px;
+          padding-right: 10px; 
+          padding-left: 10px; 
+      }
+
+      nav a:hover{
+         background-color: #d3dde84d;
+         transition-duration: .3s;  
+       }
+
+      main{
+         background-color: white;
+         padding: 15px;
+         min-width: 300px;
+         max-width: 1000px;
+         margin: auto;
+         box-shadow:  1px 1px 25px -10px black;
+       }
+
+      main h1{ 
+         color: white;
+         text-align: center;
+         font-family: 'Madani-M';
+         margin: auto;
+         background-color: #5F6369;
+         padding-top: 8px;
+        box-shadow:4px 5px 11px -5px black;
+        
+       }
+
+     
+     
+      main p{
+         font-family: 'Madani-P';
+         font-weight: bold;
+         text-indent: 20px;
+         text-align: justify;
+       padding-top: 20px;   
+       }
+       
+      #dov{ 
+         display: flex;
+         justify-content: center;
+         padding-top: 10px;
+       }
+
+      aside{
+          box-shadow: 4px 5px 11px -5px black ;
+          margin: auto;
+          margin: 30px;
+          margin-bottom: 15px;
+         background-color: #5F6369;
+         border-radius: 3px;
+         margin-top: 25px;
+         margin-bottom: 10px;
+         border-radius: 10px;
+      }
+       aside h2 { 
+         border-radius: 10px;
+         border-bottom-left-radius: 0px;
+         border-bottom-right-radius: 0px;
+         background-color: #383B3E;
+         padding-top: 7px;
+         padding-bottom: 7px;
+         font-family: 'Madani-M';
+         text-align: center;
+         color: white ;
+       }
+
+       aside p {
+          font-family: 'Madani-M';
+          text-align: center;
+          color: white;
+          padding-top: 12px;
+       } 
+
+       aside ul {
+         text-indent: 10px;
+         list-style-position: inside;
+         color: white;
+         font-family: 'Madani-M';
+        }
+
+
+      footer {
+         margin: auto;
+       }
+
+      footer p {
+         background-color: #383B3E;
+         text-align: center;
+         color: white;
+         font-family:'Madani-M';
+         font-size: smaller;
+       }
+
+      footer a { 
+         color: white;
+         text-decoration: none;
+      }
+
+      footer a:hover { 
+         color: #B4BCC6;
+      }
+
